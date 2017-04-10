@@ -3,6 +3,8 @@ title: "README"
 output: html_document
 ---
 
+[![DOI](https://zenodo.org/badge/87823234.svg)](https://zenodo.org/badge/latestdoi/87823234)
+
 This is the code for the shiny app published alongside the article entitled *Revisiting the biodiversity-ecosystem multifunctionality relationship* by Gamfeldt and Roger 2017 (Nature Ecology and Evolution) 
 
 ### running the app
