@@ -1,7 +1,20 @@
 ---
-title: "Description"
+title: "README"
 output: html_document
 ---
+
+This is the code for the shiny app published alongside the article entitled *Revisiting the biodiversity-ecosystem multifunctionality relationship* by Gamfeldt and Roger 2017 (Nature Ecology and Evolution) 
+
+To run the app, from within R run
+
+```{r}
+
+library(shiny)
+runGitHub("FabianRoger/Gamfeldt_Roger_2017_NEE_app")
+
+```
+
+Below follows the description of the app. The identical document is also accessible from within the app under the "Description" tab. 
 
 ## multifunctionality simulations
 
