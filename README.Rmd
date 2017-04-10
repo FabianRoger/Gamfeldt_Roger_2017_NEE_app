@@ -5,6 +5,8 @@ output: html_document
 
 This is the code for the shiny app published alongside the article entitled *Revisiting the biodiversity-ecosystem multifunctionality relationship* by Gamfeldt and Roger 2017 (Nature Ecology and Evolution) 
 
+### running the app
+
 To run the app, from within R run
 
 ```{r}
@@ -13,6 +15,20 @@ library(shiny)
 runGitHub("FabianRoger/Gamfeldt_Roger_2017_NEE_app")
 
 ```
+
+You need to have the following packages installed to run the app. (Older or newer package versions might work but it is not tested):
+
++ ggplot2_2.2.0     
++ corrplot_0.77
++ RColorBrewer_1.1-2
++ tidyr_0.6.0        
++ dplyr_0.5.0  
+
+sessionInfo()
+R version 3.3.1 (2016-06-21)
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+Running under: OS X 10.11.3 (El Capitan)
+
 
 Below follows the description of the app. The identical document is also accessible from within the app under the "Description" tab. 
 
@@ -109,20 +125,7 @@ The slopes shown in the previous figure are plotted against threshold values ove
 
 ***click to recompute after you updated the function values***
 
-## running the app
 
-You need to have the following packages installed to run the app. (Older or newer package versions might work but it's not tested):
-
-+ ggplot2_2.2.0     
-+ corrplot_0.77
-+ RColorBrewer_1.1-2
-+ tidyr_0.6.0        
-+ dplyr_0.5.0  
-
-sessionInfo()
-R version 3.3.1 (2016-06-21)
-Platform: x86_64-apple-darwin13.4.0 (64-bit)
-Running under: OS X 10.11.3 (El Capitan)
 
 
 
