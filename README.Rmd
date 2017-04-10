@@ -9,6 +9,10 @@ This is the code for the shiny app published alongside the article entitled *Rev
 
 ### running the app
 
+you can access  the app online here:
+
+[https://fabianroger.shinyapps.io/multifunctionality-simulations/](https://fabianroger.shinyapps.io/multifunctionality-simulations/)
+
 To run the app, from within R run
 
 ```{r}
